@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003D2655984FCD10DA427E15 /* libPods-templateReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB512AC5464DB96021D3A56 /* libPods-templateReactNative.a */; };
-		00E356F31AD99517003FC87E /* templateReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* templateReactNativeTests.m */; };
+		003D2655984FCD10DA427E15 /* libPods-webtruyenhay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB512AC5464DB96021D3A56 /* libPods-webtruyenhay.a */; };
+		00E356F31AD99517003FC87E /* webtruyenhayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* webtruyenhayTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* templateReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* templateReactNativeTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* webtruyenhayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* webtruyenhayTests.m */; };
 		5091AE6624EC388F000B08B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5091AE6524EC388F000B08B2 /* LaunchScreen.storyboard */; };
-		AC9B221317CE71714ACD643B /* libPods-templateReactNative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073794634FD2B3B3A8642D1C /* libPods-templateReactNative-tvOS.a */; };
-		C475CF2AE5CB157233B50213 /* libPods-templateReactNative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45372A68D1BDC3BF5D2ECA3C /* libPods-templateReactNative-tvOSTests.a */; };
-		C5B559BF1C4B25B42E44276E /* libPods-templateReactNative-templateReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB95F0D33F7CA3EE08939A /* libPods-templateReactNative-templateReactNativeTests.a */; };
+		AC9B221317CE71714ACD643B /* libPods-webtruyenhay-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073794634FD2B3B3A8642D1C /* libPods-webtruyenhay-tvOS.a */; };
+		C475CF2AE5CB157233B50213 /* libPods-webtruyenhay-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45372A68D1BDC3BF5D2ECA3C /* libPods-webtruyenhay-tvOSTests.a */; };
+		C5B559BF1C4B25B42E44276E /* libPods-webtruyenhay-webtruyenhayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB95F0D33F7CA3EE08939A /* libPods-webtruyenhay-webtruyenhayTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = templateReactNative;
+			remoteInfo = webtruyenhay;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "templateReactNative-tvOS";
+			remoteInfo = "webtruyenhay-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* templateReactNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = templateReactNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* webtruyenhayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webtruyenhayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* templateReactNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = templateReactNativeTests.m; sourceTree = "<group>"; };
-		04B052A3FC498FEF0F9C2054 /* Pods-templateReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative.debug.xcconfig"; path = "Target Support Files/Pods-templateReactNative/Pods-templateReactNative.debug.xcconfig"; sourceTree = "<group>"; };
-		073794634FD2B3B3A8642D1C /* libPods-templateReactNative-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateReactNative-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* templateReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = templateReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = templateReactNative/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = templateReactNative/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = templateReactNative/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = templateReactNative/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = templateReactNative/main.m; sourceTree = "<group>"; };
-		17F21D74B0C3BE7C75CA9001 /* Pods-templateReactNative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOSTests/Pods-templateReactNative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		18EB95F0D33F7CA3EE08939A /* libPods-templateReactNative-templateReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateReactNative-templateReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BB512AC5464DB96021D3A56 /* libPods-templateReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23018DF690837B15D2DF06FA /* Pods-templateReactNative-templateReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-templateReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-templateReactNative-templateReactNativeTests/Pods-templateReactNative-templateReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2873D585269AFFB088359E7F /* Pods-templateReactNative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOS/Pods-templateReactNative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* templateReactNative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "templateReactNative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* templateReactNative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "templateReactNative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45372A68D1BDC3BF5D2ECA3C /* libPods-templateReactNative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateReactNative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5091AE6524EC388F000B08B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = templateReactNative/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		624DC710E9E50F02F8E098C9 /* Pods-templateReactNative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOSTests/Pods-templateReactNative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9972F2C26F2C7B88186A3109 /* Pods-templateReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative.release.xcconfig"; path = "Target Support Files/Pods-templateReactNative/Pods-templateReactNative.release.xcconfig"; sourceTree = "<group>"; };
-		B55A76A64E3FFA42D51D19EE /* Pods-templateReactNative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-templateReactNative-tvOS/Pods-templateReactNative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		CDE0383324EBB72ED8358861 /* Pods-templateReactNative-templateReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateReactNative-templateReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-templateReactNative-templateReactNativeTests/Pods-templateReactNative-templateReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* webtruyenhayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webtruyenhayTests.m; sourceTree = "<group>"; };
+		04B052A3FC498FEF0F9C2054 /* Pods-webtruyenhay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtruyenhay.debug.xcconfig"; path = "Target Support Files/Pods-webtruyenhay/Pods-webtruyenhay.debug.xcconfig"; sourceTree = "<group>"; };
+		073794634FD2B3B3A8642D1C /* libPods-webtruyenhay-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webtruyenhay-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* webtruyenhay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webtruyenhay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = webtruyenhay/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = webtruyenhay/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = webtruyenhay/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = webtruyenhay/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = webtruyenhay/main.m; sourceTree = "<group>"; };
+		17F21D74B0C3BE7C75CA9001 /* Pods-webtruyenhay-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtruyenhay-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-webtruyenhay-tvOSTests/Pods-webtruyenhay-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		18EB95F0D33F7CA3EE08939A /* libPods-webtruyenhay-webtruyenhayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webtruyenhay-webtruyenhayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB512AC5464DB96021D3A56 /* libPods-webtruyenhay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webtruyenhay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23018DF690837B15D2DF06FA /* Pods-webtruyenhay-webtruyenhayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtruyenhay-webtruyenhayTests.debug.xcconfig"; path = "Target Support Files/Pods-webtruyenhay-webtruyenhayTests/Pods-webtruyenhay-webtruyenhayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2873D585269AFFB088359E7F /* Pods-webtruyenhay-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtruyenhay-tvOS.release.xcconfig"; path = "Target Support Files/Pods-webtruyenhay-tvOS/Pods-webtruyenhay-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* webtruyenhay-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webtruyenhay-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* webtruyenhay-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webtruyenhay-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45372A68D1BDC3BF5D2ECA3C /* libPods-webtruyenhay-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webtruyenhay-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5091AE6524EC388F000B08B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = webtruyenhay/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		624DC710E9E50F02F8E098C9 /* Pods-webtruyenhay-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtruyenhay-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-webtruyenhay-tvOSTests/Pods-webtruyenhay-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9972F2C26F2C7B88186A3109 /* Pods-webtruyenhay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtruyenhay.release.xcconfig"; path = "Target Support Files/Pods-webtruyenhay/Pods-webtruyenhay.release.xcconfig"; sourceTree = "<group>"; };
+		B55A76A64E3FFA42D51D19EE /* Pods-webtruyenhay-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtruyenhay-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-webtruyenhay-tvOS/Pods-webtruyenhay-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE0383324EBB72ED8358861 /* Pods-webtruyenhay-webtruyenhayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webtruyenhay-webtruyenhayTests.release.xcconfig"; path = "Target Support Files/Pods-webtruyenhay-webtruyenhayTests/Pods-webtruyenhay-webtruyenhayTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B559BF1C4B25B42E44276E /* libPods-templateReactNative-templateReactNativeTests.a in Frameworks */,
+				C5B559BF1C4B25B42E44276E /* libPods-webtruyenhay-webtruyenhayTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003D2655984FCD10DA427E15 /* libPods-templateReactNative.a in Frameworks */,
+				003D2655984FCD10DA427E15 /* libPods-webtruyenhay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9B221317CE71714ACD643B /* libPods-templateReactNative-tvOS.a in Frameworks */,
+				AC9B221317CE71714ACD643B /* libPods-webtruyenhay-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C475CF2AE5CB157233B50213 /* libPods-templateReactNative-tvOSTests.a in Frameworks */,
+				C475CF2AE5CB157233B50213 /* libPods-webtruyenhay-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* templateReactNativeTests */ = {
+		00E356EF1AD99517003FC87E /* webtruyenhayTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* templateReactNativeTests.m */,
+				00E356F21AD99517003FC87E /* webtruyenhayTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = templateReactNativeTests;
+			path = webtruyenhayTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* templateReactNative */ = {
+		13B07FAE1A68108700A75B9A /* webtruyenhay */ = {
 			isa = PBXGroup;
 			children = (
 				5091AE6524EC388F000B08B2 /* LaunchScreen.storyboard */,
@@ -133,7 +133,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = templateReactNative;
+			name = webtruyenhay;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				1BB512AC5464DB96021D3A56 /* libPods-templateReactNative.a */,
-				18EB95F0D33F7CA3EE08939A /* libPods-templateReactNative-templateReactNativeTests.a */,
-				073794634FD2B3B3A8642D1C /* libPods-templateReactNative-tvOS.a */,
-				45372A68D1BDC3BF5D2ECA3C /* libPods-templateReactNative-tvOSTests.a */,
+				1BB512AC5464DB96021D3A56 /* libPods-webtruyenhay.a */,
+				18EB95F0D33F7CA3EE08939A /* libPods-webtruyenhay-webtruyenhayTests.a */,
+				073794634FD2B3B3A8642D1C /* libPods-webtruyenhay-tvOS.a */,
+				45372A68D1BDC3BF5D2ECA3C /* libPods-webtruyenhay-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* templateReactNative */,
+				13B07FAE1A68108700A75B9A /* webtruyenhay */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* templateReactNativeTests */,
+				00E356EF1AD99517003FC87E /* webtruyenhayTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				CD30C75423ACF228A3A384E9 /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* templateReactNative.app */,
-				00E356EE1AD99517003FC87E /* templateReactNativeTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* templateReactNative-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* templateReactNative-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* webtruyenhay.app */,
+				00E356EE1AD99517003FC87E /* webtruyenhayTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* webtruyenhay-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* webtruyenhay-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		CD30C75423ACF228A3A384E9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				04B052A3FC498FEF0F9C2054 /* Pods-templateReactNative.debug.xcconfig */,
-				9972F2C26F2C7B88186A3109 /* Pods-templateReactNative.release.xcconfig */,
-				23018DF690837B15D2DF06FA /* Pods-templateReactNative-templateReactNativeTests.debug.xcconfig */,
-				CDE0383324EBB72ED8358861 /* Pods-templateReactNative-templateReactNativeTests.release.xcconfig */,
-				B55A76A64E3FFA42D51D19EE /* Pods-templateReactNative-tvOS.debug.xcconfig */,
-				2873D585269AFFB088359E7F /* Pods-templateReactNative-tvOS.release.xcconfig */,
-				17F21D74B0C3BE7C75CA9001 /* Pods-templateReactNative-tvOSTests.debug.xcconfig */,
-				624DC710E9E50F02F8E098C9 /* Pods-templateReactNative-tvOSTests.release.xcconfig */,
+				04B052A3FC498FEF0F9C2054 /* Pods-webtruyenhay.debug.xcconfig */,
+				9972F2C26F2C7B88186A3109 /* Pods-webtruyenhay.release.xcconfig */,
+				23018DF690837B15D2DF06FA /* Pods-webtruyenhay-webtruyenhayTests.debug.xcconfig */,
+				CDE0383324EBB72ED8358861 /* Pods-webtruyenhay-webtruyenhayTests.release.xcconfig */,
+				B55A76A64E3FFA42D51D19EE /* Pods-webtruyenhay-tvOS.debug.xcconfig */,
+				2873D585269AFFB088359E7F /* Pods-webtruyenhay-tvOS.release.xcconfig */,
+				17F21D74B0C3BE7C75CA9001 /* Pods-webtruyenhay-tvOSTests.debug.xcconfig */,
+				624DC710E9E50F02F8E098C9 /* Pods-webtruyenhay-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* templateReactNativeTests */ = {
+		00E356ED1AD99517003FC87E /* webtruyenhayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "templateReactNativeTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "webtruyenhayTests" */;
 			buildPhases = (
 				B114818D61A3A5D2A4D1C02F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = templateReactNativeTests;
-			productName = templateReactNativeTests;
-			productReference = 00E356EE1AD99517003FC87E /* templateReactNativeTests.xctest */;
+			name = webtruyenhayTests;
+			productName = webtruyenhayTests;
+			productReference = 00E356EE1AD99517003FC87E /* webtruyenhayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* templateReactNative */ = {
+		13B07F861A680F5B00A75B9A /* webtruyenhay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "templateReactNative" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "webtruyenhay" */;
 			buildPhases = (
 				7CE18ABCD2D11D3FA1E58899 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -236,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = templateReactNative;
-			productName = templateReactNative;
-			productReference = 13B07F961A680F5B00A75B9A /* templateReactNative.app */;
+			name = webtruyenhay;
+			productName = webtruyenhay;
+			productReference = 13B07F961A680F5B00A75B9A /* webtruyenhay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* templateReactNative-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* webtruyenhay-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "templateReactNative-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "webtruyenhay-tvOS" */;
 			buildPhases = (
 				E03D8A8731B039EEA31D0E06 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -256,14 +256,14 @@
 			);
 			dependencies = (
 			);
-			name = "templateReactNative-tvOS";
-			productName = "templateReactNative-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* templateReactNative-tvOS.app */;
+			name = "webtruyenhay-tvOS";
+			productName = "webtruyenhay-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* webtruyenhay-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* templateReactNative-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* webtruyenhay-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "templateReactNative-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "webtruyenhay-tvOSTests" */;
 			buildPhases = (
 				DA5A39C25BB9AE23013BE26C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -275,9 +275,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "templateReactNative-tvOSTests";
-			productName = "templateReactNative-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* templateReactNative-tvOSTests.xctest */;
+			name = "webtruyenhay-tvOSTests";
+			productName = "webtruyenhay-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* webtruyenhay-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -306,7 +306,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "templateReactNative" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "webtruyenhay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -319,10 +319,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* templateReactNative */,
-				00E356ED1AD99517003FC87E /* templateReactNativeTests */,
-				2D02E47A1E0B4A5D006451C7 /* templateReactNative-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* templateReactNative-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* webtruyenhay */,
+				00E356ED1AD99517003FC87E /* webtruyenhayTests */,
+				2D02E47A1E0B4A5D006451C7 /* webtruyenhay-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* webtruyenhay-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -382,7 +382,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-templateReactNative-templateReactNativeTests/Pods-templateReactNative-templateReactNativeTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-webtruyenhay-webtruyenhayTests/Pods-webtruyenhay-webtruyenhayTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -391,7 +391,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-templateReactNative-templateReactNativeTests/Pods-templateReactNative-templateReactNativeTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-webtruyenhay-webtruyenhayTests/Pods-webtruyenhay-webtruyenhayTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -414,7 +414,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-templateReactNative/Pods-templateReactNative-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-webtruyenhay/Pods-webtruyenhay-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -423,7 +423,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-templateReactNative/Pods-templateReactNative-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-webtruyenhay/Pods-webtruyenhay-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7CE18ABCD2D11D3FA1E58899 /* [CP] Check Pods Manifest.lock */ = {
@@ -441,7 +441,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-templateReactNative-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-webtruyenhay-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -463,7 +463,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-templateReactNative-templateReactNativeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-webtruyenhay-webtruyenhayTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -485,7 +485,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-templateReactNative-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-webtruyenhay-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -507,7 +507,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-templateReactNative-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-webtruyenhay-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -559,7 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* templateReactNativeTests.m in Sources */,
+				00E356F31AD99517003FC87E /* webtruyenhayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,7 +585,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* templateReactNativeTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* webtruyenhayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,12 +594,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* templateReactNative */;
+			target = 13B07F861A680F5B00A75B9A /* webtruyenhay */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* templateReactNative-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* webtruyenhay-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -607,14 +607,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23018DF690837B15D2DF06FA /* Pods-templateReactNative-templateReactNativeTests.debug.xcconfig */;
+			baseConfigurationReference = 23018DF690837B15D2DF06FA /* Pods-webtruyenhay-webtruyenhayTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = templateReactNativeTests/Info.plist;
+				INFOPLIST_FILE = webtruyenhayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -624,17 +624,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/templateReactNative.app/templateReactNative";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webtruyenhay.app/webtruyenhay";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDE0383324EBB72ED8358861 /* Pods-templateReactNative-templateReactNativeTests.release.xcconfig */;
+			baseConfigurationReference = CDE0383324EBB72ED8358861 /* Pods-webtruyenhay-webtruyenhayTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = templateReactNativeTests/Info.plist;
+				INFOPLIST_FILE = webtruyenhayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -644,13 +644,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/templateReactNative.app/templateReactNative";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webtruyenhay.app/webtruyenhay";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04B052A3FC498FEF0F9C2054 /* Pods-templateReactNative.debug.xcconfig */;
+			baseConfigurationReference = 04B052A3FC498FEF0F9C2054 /* Pods-webtruyenhay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -660,7 +660,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = templateReactNative/Info.plist;
+				INFOPLIST_FILE = webtruyenhay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -668,7 +668,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = templateReactNative;
+				PRODUCT_NAME = webtruyenhay;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -677,12 +677,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9972F2C26F2C7B88186A3109 /* Pods-templateReactNative.release.xcconfig */;
+			baseConfigurationReference = 9972F2C26F2C7B88186A3109 /* Pods-webtruyenhay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = templateReactNative/Info.plist;
+				INFOPLIST_FILE = webtruyenhay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -690,7 +690,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = templateReactNative;
+				PRODUCT_NAME = webtruyenhay;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -698,7 +698,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B55A76A64E3FFA42D51D19EE /* Pods-templateReactNative-tvOS.debug.xcconfig */;
+			baseConfigurationReference = B55A76A64E3FFA42D51D19EE /* Pods-webtruyenhay-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -709,14 +709,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "templateReactNative-tvOS/Info.plist";
+				INFOPLIST_FILE = "webtruyenhay-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.templateReactNative-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.webtruyenhay-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -726,7 +726,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2873D585269AFFB088359E7F /* Pods-templateReactNative-tvOS.release.xcconfig */;
+			baseConfigurationReference = 2873D585269AFFB088359E7F /* Pods-webtruyenhay-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -737,14 +737,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "templateReactNative-tvOS/Info.plist";
+				INFOPLIST_FILE = "webtruyenhay-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.templateReactNative-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.webtruyenhay-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -754,7 +754,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17F21D74B0C3BE7C75CA9001 /* Pods-templateReactNative-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 17F21D74B0C3BE7C75CA9001 /* Pods-webtruyenhay-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -764,24 +764,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "templateReactNative-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "webtruyenhay-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.templateReactNative-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.webtruyenhay-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/templateReactNative-tvOS.app/templateReactNative-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webtruyenhay-tvOS.app/webtruyenhay-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 624DC710E9E50F02F8E098C9 /* Pods-templateReactNative-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 624DC710E9E50F02F8E098C9 /* Pods-webtruyenhay-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -791,17 +791,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "templateReactNative-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "webtruyenhay-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.templateReactNative-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.webtruyenhay-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/templateReactNative-tvOS.app/templateReactNative-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webtruyenhay-tvOS.app/webtruyenhay-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -922,7 +922,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "templateReactNativeTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "webtruyenhayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -931,7 +931,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "templateReactNative" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "webtruyenhay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -940,7 +940,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "templateReactNative-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "webtruyenhay-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -949,7 +949,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "templateReactNative-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "webtruyenhay-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -958,7 +958,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "templateReactNative" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "webtruyenhay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

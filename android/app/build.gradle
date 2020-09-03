@@ -130,7 +130,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.templatereactnative"
+        applicationId "com.webtruyenhay"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
