@@ -17,7 +17,8 @@ const App = () => {
     colors: {
       ...hookTheme.colors,
       primary: '#491d88',
-      surface: '#fec859',
+      surface: '#331a38',
+      text: '#ddd',
       background: 'transparent',
       darkPurple: '#331a38',
       purple: '#491d88',
@@ -25,10 +26,10 @@ const App = () => {
       yellow: '#fec859',
       pink: '#fa448c',
       gray: '#ddd',
-      text: '#ddd',
+      placeholder: '#ddd',
+      underlineColor: '#491d88',
     },
   };
-
   return (
     <Provider store={store}>
       <PersistGate loading={<Loading />} persistor={persistor}>

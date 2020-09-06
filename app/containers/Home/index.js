@@ -13,28 +13,38 @@ const HomeScreen = ({ navigation }) => {
   //state
 
   let allStories = useSelector((_) => _.home.allStories);
+  let page = useSelector((_) => _.home.page);
+  let pageCount = useSelector((_) => _.home.pageCount);
   //allStories = [...allStories, ...allStories, ...allStories];
-  const getALlStoriesLoading = useSelector((_) => _.home.getALlStoriesLoading);
-  const getALlStoriesSuccess = useSelector((_) => _.home.getALlStoriesSuccess);
-  const getALlStoriesError = useSelector((_) => _.home.getALlStoriesError);
+  const getAllStoriesLoading = useSelector((_) => _.home.getAllStoriesLoading);
+  const getAllStoriesSuccess = useSelector((_) => _.home.getAllStoriesSuccess);
+  const getAllStoriesError = useSelector((_) => _.home.getAllStoriesError);
   //init hook
   const theme = useTheme();
   const dispatch = useDispatch();
   //componentDidMount
   //store get data
   useEffect(() => {
-    if (!allStories && !getALlStoriesLoading) {
-      console.log('run');
-      dispatch(storyActions.getALLStories());
+    let subtitle = pageCount && page && pageCount !== 1 ? `${page}/${pageCount}` : '';
+    navigation.setParams({
+      subtitle,
+      syncData: () => dispatch(storyActions.getAllStories()),
+      jumpToPage: (nextPage) => dispatch(storyActions.getAllStories({ page: nextPage })),
+    });
+  }, [dispatch, navigation, page, pageCount]);
+  useEffect(() => {
+    if (!allStories && !getAllStoriesLoading) {
+      dispatch(storyActions.getAllStories());
     }
-  }, [allStories, dispatch, getALlStoriesLoading]);
+  }, [allStories, dispatch, getAllStoriesLoading]);
   const showStoryDetail = (index) => {
-    navigation.navigate('StoryDetail', { index, story: allStories[index] });
+    navigation.navigate('StoryDetail', { index, story: allStories[index], headerTitle: allStories[index].name });
   };
   //render
   const renderStory = ({ item, index, separators }) => {
     const { name, slug, cover, chapters = [] } = item || {};
     const lastestChapter = chapters[chapters.length - 1] || {};
+
     return (
       <StoryListItem
         key={index}
@@ -49,17 +59,17 @@ const HomeScreen = ({ navigation }) => {
     );
   };
   return (
-    <SafeAreaView style={styles.home}>
-      <GradientBackground>
+    <GradientBackground>
+      <SafeAreaView style={styles.home}>
         <List.Section style={{ height: '100%' }}>
-          {getALlStoriesLoading ? (
+          {getAllStoriesLoading ? (
             <Loading />
           ) : (
             <FlatList data={allStories} renderItem={renderStory} keyExtractor={(item, index) => item.slug + index} />
           )}
         </List.Section>
-      </GradientBackground>
-    </SafeAreaView>
+      </SafeAreaView>
+    </GradientBackground>
   );
 };
 

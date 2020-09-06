@@ -1,12 +1,11 @@
 import { all, put, takeLatest } from 'redux-saga/effects';
 
 import constants from './constants';
-import { getALlStories } from './services';
+import services from './services';
 
 export function* getAllStories({ payload }) {
   try {
-    console.log('run saga');
-    let { allStories, pageCount } = yield getALlStories(payload);
+    let { allStories, pageCount } = yield services.getAllStories(payload);
     let { page = 1 } = payload || {};
 
     yield put({

@@ -1,13 +1,15 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { DrawerItem, DrawerContentScrollView, createDrawerNavigator } from '@react-navigation/drawer';
-import { useTheme, Avatar, Title, Caption, Paragraph, Drawer, Text, TouchableRipple, Switch } from 'react-native-paper';  
-import GradientBackground from './GradientBackground';
+import { useTheme, Avatar, Title, Caption, Paragraph, Drawer, Text, TouchableRipple, Switch } from 'react-native-paper';
 import { WithDrawerStackNavigator } from './WithDrawerStackNavigator';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import GradientBackground from '../../components/general/GradientBackground';
 const DrawerNavigator = createDrawerNavigator();
 export function DrawerContent(props) {
   const theme = useTheme();
   const { navigation } = props;
+
   return (
     <DrawerContentScrollView {...props}>
       <View style={styles.drawerContent}>
@@ -22,7 +24,7 @@ export function DrawerContent(props) {
           <DrawerItem
             icon={({ color, size }) => <MaterialCommunityIcons name="home" color={color} size={size} />}
             label="Trang chủ"
-            onPress={() => navigation.navigate('Home')}
+            onPress={() => navigation.navigate('BottomTabs', { screen: 'Home' })}
           />
           <DrawerItem
             icon={({ color, size }) => <MaterialCommunityIcons name="view-list" color={color} size={size} />}
@@ -53,7 +55,6 @@ export default () => {
   );
 };
 
-export default Drawer;
 const styles = StyleSheet.create({
   drawerContent: {
     flex: 1,

@@ -12,8 +12,9 @@ const middleware = [sagaMiddleware];
 //
 const reducer = persistReducer(
   {
-    key: 'rrsb', // key is required
+    key: 'root', // key is required
     storage: AsyncStorage, // storage is now required
+    whitelist: ['category', 'library'],
   },
   rootReducer,
 );

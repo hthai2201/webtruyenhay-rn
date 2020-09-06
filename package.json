@@ -18,7 +18,7 @@
     "prettify": "prettier --write",
     "rename": "react-native-rename",
     "menu": "adb connect 127.0.0.1:21503",
-    "react-devtools": "react-devtools"
+    "devtools": "adb reverse tcp:8097 tcp:8097&&react-devtools"
   },
   "dependencies": {
     "@formatjs/intl-pluralrules": "^3.4.0",
@@ -53,6 +53,7 @@
     "react-native-safe-area-context": "^3.1.4",
     "react-native-screens": "^2.10.1",
     "react-native-spinkit": "^1.5.0",
+    "react-native-swiper": "^1.6.0",
     "react-native-tab-view": "^2.15.1",
     "react-native-vector-icons": "^7.0.0",
     "react-native-web": "~0.11.7",

@@ -1,11 +1,11 @@
 import constants from './constants';
 //sync
 //async
-function getALLStories(payload) {
+function getAllStories(payload) {
   return { type: constants.GET_ALL_STORIES, payload };
 }
 
 export const storyActions = {
   //async
-  getALLStories,
+  getAllStories,
 };

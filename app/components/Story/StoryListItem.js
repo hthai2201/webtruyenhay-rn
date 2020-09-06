@@ -3,7 +3,7 @@ import { List, Text, Surface, Divider, Avatar, useTheme } from 'react-native-pap
 import { StyleSheet } from 'react-native';
 import color from 'color';
 
-const StoryListItem = ({ cover, title, subTitle = [], onPressStory }) => {
+const StoryListItem = ({ key, cover, title, subTitle = [], onPressStory }) => {
   const subTitles = subTitle instanceof Array ? subTitle : [subTitle];
   const theme = useTheme();
 
@@ -12,6 +12,7 @@ const StoryListItem = ({ cover, title, subTitle = [], onPressStory }) => {
   return (
     <Surface style={styles.listItemWrap}>
       <List.Item
+        key={key}
         onPress={onPressStory}
         style={styles.listItem}
         title={title}
@@ -42,7 +43,7 @@ const styles = StyleSheet.create({
     flex: 0.5,
   },
   listItem: {
-    //backgroundColor: color('#fff').alpha(0.3),
+    backgroundColor: `${color('#fff').alpha(0.2)}`,
     marginHorizontal: 10,
   },
   titleText: {

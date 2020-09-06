@@ -13,18 +13,18 @@ export function homeReducer(state = INITIAL_STATE, action) {
     case constants.GET_ALL_STORIES: {
       return {
         ...state,
-        getALlStoriesLoading: true,
-        getALlStoriesSuccess: false,
-        getALlStoriesError: null,
+        getAllStoriesLoading: true,
+        getAllStoriesSuccess: false,
+        getAllStoriesError: null,
         allStories: null,
       };
     }
     case constants.GET_ALL_STORIES_SUCCESS: {
       return {
         ...state,
-        getALlStoriesLoading: false,
-        getALlStoriesSuccess: true,
-        getALlStoriesError: null,
+        getAllStoriesLoading: false,
+        getAllStoriesSuccess: true,
+        getAllStoriesError: null,
         allStories: action.allStories,
         page: action.page,
         pageCount: action.pageCount,
@@ -34,9 +34,9 @@ export function homeReducer(state = INITIAL_STATE, action) {
     case constants.GET_ALL_STORIES_FAILURE: {
       return {
         ...state,
-        getALlStoriesLoading: false,
-        getALlStoriesSuccess: false,
-        getALlStoriesError: action.error,
+        getAllStoriesLoading: false,
+        getAllStoriesSuccess: false,
+        getAllStoriesError: action.error,
         allStories: null,
       };
     }

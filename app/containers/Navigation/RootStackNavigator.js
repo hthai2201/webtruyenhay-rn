@@ -1,33 +1,17 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import { WithDrawerStackNavigator } from './WithDrawerStackNavigator';
-import { Text } from 'react-native-paper';
+import Drawer from './Drawer';
 const Stack = createStackNavigator();
 
 export const RootStackNavigator = () => {
-  const getHeaderTitle = (route) => {
-    const routeName = route.state ? route.state.routes[route.state.index].name : 'Home';
-  };
-  
   return (
     <Stack.Navigator
-      initialRouteName="Home"
-      headerMode="screen"
+      initialRouteName="Root"
       screenOptions={{
-        header: () => (
-          <>
-            <Text>Header</Text>
-          </>
-        ),
+        headerShown: false,
       }}>
-      <Stack.Screen
-        name="Home"
-        component={WithDrawerStackNavigator}
-        options={({ route }) => {
-          return { headerTitle: getHeaderTitle(route) };
-        }}
-      />
+      <Stack.Screen name="Root" component={Drawer} />
     </Stack.Navigator>
   );
 };
